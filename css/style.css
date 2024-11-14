@@ -367,6 +367,7 @@ nav ul{
 .reservation-form .input-box-btn input{
    display: inline-block;
    background: #ffb03b;
+   font-size: 20px;
    color: #1b1b1b;
    border: 1px solid #000;
    border-radius: 5px;
@@ -557,8 +558,8 @@ nav ul{
       font-size: 17px;
    }
    .reservation-form{
+      flex-wrap: nowrap;
       flex-direction: column;
-      padding: 20px;
    }
    .about{
       display: flex;
