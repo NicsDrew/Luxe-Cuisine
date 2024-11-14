@@ -289,13 +289,13 @@ nav ul{
 }
 
 .menu-list{
-   width: 50%;
+   width: 80%;
    padding-bottom: 50px;
    margin: auto;
 }
 .menu-list h2{
-   font-size: 40px;
-   padding: 30px;
+   font-size: 35px;
+   padding: 15px;
 }
 .menu-list .menu-content {
    margin-top: 20px;
@@ -551,13 +551,14 @@ nav ul{
       display: none;
    }
    .hero .hero-content h1{
-      font-size: 30px;
+      font-size: 25px;
    }
    .hero .hero-content p{
       font-size: 17px;
    }
    .reservation-form{
       flex-direction: column;
+      padding: 20px;
    }
    .about{
       display: flex;
