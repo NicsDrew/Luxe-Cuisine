@@ -495,6 +495,7 @@ nav ul{
    padding: 5px;
 }
 .footer .footer-info .info{
+   flex-wrap: wrap;
    margin: 20px 30px;
 }
 .footer .footer-info .info i{
@@ -535,21 +536,9 @@ nav ul{
    transform: scale(1.3);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
    .flex-items{
       flex-direction: column;
-   }
-   .menu-wrap .hamburger{
-      display: block;
-   }
-   .navbar nav ul{
-      display: none;
-   }
-   .navbar .logo img{
-      width: 200px;
-   }
-   a.btn-nav{
-      display: none;
    }
    .hero .hero-content h1{
       font-size: 25px;
@@ -572,7 +561,35 @@ nav ul{
    .about p{
       width: 100%;
    }
+}
+
+@media (max-width: 1024px) {
+   .menu-wrap .hamburger{
+      display: block;
+   }
+   .navbar nav ul{
+      display: none;
+   }
+   .navbar .logo img{
+      width: 200px;
+   }
+   a.btn-nav{
+      display: none;
+   }
+   .team .box{
+      margin: 30px 15px;
+   }
+   .box, .box img{
+      width: 250px;
+   }
+   .contact{
+      flex-direction: column;
+   }
    .map{
       width: 100vw;
    }
+   .footer-info{
+      flex-wrap: wrap;
+   }
+      
 }
